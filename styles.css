@@ -180,7 +180,7 @@ header {
 }
 
 .card__container {
-  padding: 5rem 0;
+  padding: clamp(5rem, 3.0867rem + 8.1633vw, 8.75rem) 0 5rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
