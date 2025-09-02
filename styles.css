@@ -136,6 +136,21 @@ header {
 }
 
 /* PRICING */
+.pricing {
+  position: relative;
+}
+
+.pricing__background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 65%;
+  background-color: var(--neutral-900);
+  z-index: -1;
+}
+
 .card__container {
   padding: 5rem 0;
 }
