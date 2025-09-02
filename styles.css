@@ -132,10 +132,13 @@ header {
 
 .hero__image {
   max-width: 55%;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
 }
 
 /* PRICING */
+.pricing {
+  padding: 5rem 0;
+}
 
 .card {
   align-items: center;
