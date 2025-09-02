@@ -119,6 +119,11 @@ header {
 }
 
 @media only screen and (min-width: 48rem) {
+  .top-background {
+    width: auto;
+    right: 0;
+  }
+
   .main__nav {
     justify-content: space-between;
   }
