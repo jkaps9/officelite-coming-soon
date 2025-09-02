@@ -23,7 +23,18 @@
   </head>
   <body>
     <div class="top-background" aria-hidden="true">
-      <img src="assets/home/bg-pattern-header-small.svg" alt="header pattern" />
+      <img
+        srcset="
+          assets/home/bg-pattern-header-small.svg   375w,
+          assets/home/bg-pattern-header-medium.svg  768w,
+          assets/home/bg-pattern-header.svg        1110w
+        "
+        sizes="(width < 768px) 375px,
+        (width <= 1110px) 768px,
+        1110px"
+        src="assets/home/bg-pattern-header.svg"
+        alt="header pattern"
+      />
     </div>
     <header>
       <div class="container">
