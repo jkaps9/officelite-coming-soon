@@ -183,8 +183,6 @@ header {
 
 /* COUNTDOWN */
 .countdown {
-  background: var(--neutral-900);
-  padding-top: 5rem;
   padding-bottom: 7rem;
 
   h2,
