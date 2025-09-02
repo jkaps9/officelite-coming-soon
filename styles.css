@@ -20,6 +20,7 @@
 body {
   font-family: "Kumbh Sans", sans-serif;
   color: var(--neutral-900);
+  position: relative;
 }
 
 a {
@@ -48,6 +49,13 @@ img {
 }
 
 /* HEADER */
+.top-background {
+  position: absolute;
+  top: -11%;
+  left: 0;
+  right: 0;
+}
+
 header {
   padding-top: clamp(2.5rem, 0.1145rem + 10.1781vw, 5rem);
   padding-bottom: clamp(5rem, 3.0867rem + 8.1633vw, 8.75rem);
