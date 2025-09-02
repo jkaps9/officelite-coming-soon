@@ -144,6 +144,25 @@ header {
   margin: 0 auto 3rem;
 }
 
+@media only screen and (min-width: 48rem) {
+  .hero > .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .hero__content {
+    width: 50%;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .hero__image {
+    width: 43%;
+    margin: 0;
+  }
+}
+
 /* PRICING */
 .pricing {
   position: relative;
