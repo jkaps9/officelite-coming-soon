@@ -53,6 +53,16 @@ header {
   padding-bottom: clamp(5rem, 3.0867rem + 8.1633vw, 8.75rem);
 }
 
+.main__nav {
+  justify-content: center;
+}
+
+@media only screen and (min-width: 48rem) {
+  .main__nav {
+    justify-content: space-between;
+  }
+}
+
 /* HERO */
 .hero {
   text-align: center;
