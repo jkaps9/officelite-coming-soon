@@ -39,9 +39,15 @@ img {
 
 .row {
   display: flex;
+  justify-content: space-between;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+}
+
+/* HEADER */
+header {
+  padding-top: clamp(2.5rem, 0.1145rem + 10.1781vw, 5rem);
 }
