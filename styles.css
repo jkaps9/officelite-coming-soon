@@ -177,3 +177,35 @@ header {
     color: var(--neutral-500);
   }
 }
+
+/* COUNTDOWN */
+.countdown {
+  background: var(--neutral-900);
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+
+  h2,
+  strong {
+    color: var(--neutral-0);
+    text-transform: uppercase;
+  }
+}
+
+.countdown__content {
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.countdown__title {
+  font-size: 1rem;
+  line-height: 160%;
+  letter-spacing: 5px;
+}
+
+.countdown__time {
+  margin-bottom: 1.75rem;
+}
+
+.accent-text {
+  color: var(--blue-500);
+}
