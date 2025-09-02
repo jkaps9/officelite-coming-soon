@@ -228,6 +228,20 @@ header {
   }
 }
 
+@media only screen and (min-width: 48rem) {
+  .card {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-items: start;
+    text-align: start;
+    row-gap: 1.5rem;
+  }
+
+  .card__features {
+    grid-row: span 2;
+  }
+}
 /* COUNTDOWN */
 .countdown {
   padding-bottom: 7rem;
