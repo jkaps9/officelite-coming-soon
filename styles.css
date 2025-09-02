@@ -105,6 +105,7 @@ header {
 }
 
 .hero__content {
+  align-items: center;
   gap: 1.5rem;
 }
 
