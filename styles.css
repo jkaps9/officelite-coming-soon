@@ -48,6 +48,12 @@ p {
   color: var(--neutral-500);
 }
 
+strong {
+  font-size: 3.5rem;
+  line-height: 120%;
+  color: var(--neutral-900);
+}
+
 .container {
   width: 95%;
   margin: 0 auto;
@@ -112,4 +118,44 @@ header {
 .hero__image {
   max-width: 53%;
   margin: 0 auto;
+}
+
+/* PRICING */
+
+.card {
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.card__title {
+  color: var(--neutral-900);
+  margin-bottom: 1rem;
+}
+
+.card__price {
+  gap: 0.5rem;
+  p {
+    color: var(--neutral-900);
+  }
+}
+
+.card__features {
+  list-style: none;
+  gap: 1rem;
+
+  li {
+    color: var(--neutral-500);
+  }
+}
+
+.btn--solid-light {
+  background: var(--blue-100);
+  color: var(--blue-500);
+}
+
+.btn--solid-inverted {
+  color: var(--blue-500);
+  background: var(--neutral-0);
 }
