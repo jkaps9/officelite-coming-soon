@@ -129,6 +129,14 @@ header {
   }
 }
 
+@media only screen and (min-width: 64rem) {
+  .top-background {
+    width: auto;
+    top: -25%;
+    right: -25%;
+  }
+}
+
 /* HERO */
 .hero {
   text-align: center;
