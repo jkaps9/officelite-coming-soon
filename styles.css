@@ -50,6 +50,7 @@ img {
 /* HEADER */
 header {
   padding-top: clamp(2.5rem, 0.1145rem + 10.1781vw, 5rem);
+  padding-bottom: clamp(5rem, 3.0867rem + 8.1633vw, 8.75rem);
 }
 
 /* HERO */
@@ -59,4 +60,9 @@ header {
 
 .hero__content {
   gap: 1.5rem;
+}
+
+.hero__image {
+  max-width: 53%;
+  margin: 0 auto;
 }
