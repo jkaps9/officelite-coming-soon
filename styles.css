@@ -271,18 +271,21 @@ header {
 }
 
 .countdown__content {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
+  text-align: center;
 }
 
 .countdown__title {
   font-size: 1rem;
   line-height: 160%;
   letter-spacing: 5px;
+  margin-bottom: 1.25rem;
 }
 
 .countdown__time {
-  margin-bottom: 1.75rem;
+  margin-bottom: 3rem;
 }
 
 .accent-text {
@@ -303,5 +306,17 @@ header {
   strong {
     font-size: clamp(2.5rem, 0.2544rem + 4.6784vw, 3.5rem);
     font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .countdown__content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+  }
+
+  .countdown__time {
+    margin-bottom: 0;
   }
 }
