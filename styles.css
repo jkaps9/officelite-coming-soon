@@ -30,3 +30,18 @@ a {
 img {
   max-width: 100%;
 }
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
