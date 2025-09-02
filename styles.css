@@ -1,4 +1,23 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+:root {
+  --neutral-0: #ffffff;
+  --neutral-50: #fafafa;
+  --neutral-500: #747b95;
+  --neutral-800: #333950;
+  --neutral-900: #25293a;
+  --blue-100: #e4eaff;
+  --blue-300: #829cff;
+  --blue-500: #5175ff;
+  --red-400: #f05b5b;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--neutral-900);
 }
