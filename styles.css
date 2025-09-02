@@ -132,7 +132,7 @@ header {
 @media only screen and (min-width: 64rem) {
   .top-background {
     width: auto;
-    top: -25%;
+    top: -23%;
     right: -25%;
   }
 }
@@ -168,6 +168,15 @@ header {
   .hero__image {
     width: 43%;
     margin: 0;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .hero__content {
+    width: 45%;
+  }
+  .hero__image {
+    width: 45%;
   }
 }
 
