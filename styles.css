@@ -81,6 +81,20 @@ strong {
   border-radius: 12rem;
 }
 
+.btn--solid-shadow {
+  box-shadow: 0 25px 25px -10px rgba(63, 91, 194, 0.25);
+}
+
+.btn--solid-light {
+  background: var(--blue-100);
+  color: var(--blue-500);
+}
+
+.btn--solid-inverted {
+  color: var(--blue-500);
+  background: var(--neutral-0);
+}
+
 /* HEADER */
 .top-background {
   position: absolute;
@@ -150,14 +164,4 @@ header {
   li {
     color: var(--neutral-500);
   }
-}
-
-.btn--solid-light {
-  background: var(--blue-100);
-  color: var(--blue-500);
-}
-
-.btn--solid-inverted {
-  color: var(--blue-500);
-  background: var(--neutral-0);
 }
