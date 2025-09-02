@@ -51,3 +51,12 @@ img {
 header {
   padding-top: clamp(2.5rem, 0.1145rem + 10.1781vw, 5rem);
 }
+
+/* HERO */
+.hero {
+  text-align: center;
+}
+
+.hero__content {
+  gap: 1.5rem;
+}
