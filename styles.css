@@ -192,7 +192,11 @@ header {
   right: 0;
   width: 100%;
   height: 60%;
+  background-image: url("assets/home/bg-pattern-footer.svg");
   background-color: var(--neutral-900);
+  background-repeat: no-repeat;
+  background-size: 175%;
+  background-position: bottom -5% center;
   z-index: -1;
 }
 
@@ -261,6 +265,11 @@ header {
 }
 
 @media only screen and (min-width: 64rem) {
+  .pricing__background {
+    background-size: 80%;
+    background-position: bottom 80% left -100%;
+  }
+
   .card__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
