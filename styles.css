@@ -99,7 +99,7 @@ strong {
 /* HEADER */
 .top-background {
   position: absolute;
-  top: -11%;
+  top: 0;
   left: 0;
   right: 0;
   z-index: -1;
@@ -131,7 +131,7 @@ header {
 }
 
 .hero__image {
-  max-width: 53%;
+  max-width: 55%;
   margin: 0 auto;
 }
 
