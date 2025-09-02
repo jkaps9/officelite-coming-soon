@@ -144,6 +144,17 @@ header {
   padding: 2.5rem 1.5rem;
   box-shadow: 0 50px 50px -25px rgba(75, 92, 154, 0.24);
   border-radius: 0.75rem;
+  background: var(--neutral-0);
+}
+
+.card-blue {
+  background: var(--blue-500);
+  .card__title,
+  strong,
+  .card__price p,
+  .card__features li {
+    color: var(--neutral-0);
+  }
 }
 
 .card__title {
