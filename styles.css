@@ -475,6 +475,8 @@ section.about {
     line-height: 160%;
     font-weight: 700;
     margin-top: 1rem;
+
+    cursor: pointer;
   }
 
   input,
@@ -486,6 +488,15 @@ section.about {
     padding: 0 1rem 1rem;
     font: inherit;
     line-height: 175%;
+    cursor: pointer;
+
+    &:hover {
+      border-color: var(--blue-500);
+    }
+
+    &:focus {
+      outline: solid 2px var(--blue-500);
+    }
   }
 
   input::placeholder {
