@@ -422,6 +422,7 @@ section.about {
   margin: 0 auto;
   max-width: 27.8125rem;
   gap: 1.5rem;
+  padding: 2.5rem clamp(1.25rem, 0.0573rem + 5.0891vw, 2.5rem);
 
   .sign-up-form__row {
     align-self: stretch;
