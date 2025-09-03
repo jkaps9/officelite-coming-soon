@@ -22,30 +22,75 @@
     <link rel="stylesheet" href="../../styles.css" />
   </head>
   <body>
-    <pre>
-  Work smarter. Save time.
+    <header>
+      <div class="container">
+        <nav class="main__nav row">
+          <a href="#">
+            <img src="../shared/logo.svg" alt="officelite logo" />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="main__content">
+            <div class="about__content column">
+              <h1 class="about__title">Work smarter. Save time.</h1>
+              <p>
+                Easily manage your projects. Get on the list and receive in-app
+                perks available only to early subscribers. We are moving into
+                final development and getting ready for official launch soon.
+              </p>
+            </div>
+            <div class="countdown">
+              <div class="container">
+                <div class="countdown__content">
+                  <div class="column">
+                    <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
+                    <h2 class="countdown__title">
+                      Coming <span class="accent-text">4 Nov 2020</span>
+                    </h2>
 
-  Easily manage your projects. Get on the list and receive in-app perks available only to 
-  early subscribers. We are moving into final development and getting ready for official launch soon.
+                    <div class="countdown__time row">
+                      <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
+                      <p class="countdown__item column">
+                        <strong>47</strong> days
+                      </p>
+                      <p class="countdown__item column">
+                        <strong>07</strong> hours
+                      </p>
+                      <p class="countdown__item column">
+                        <strong>56</strong> min
+                      </p>
+                      <p class="countdown__item column">
+                        <strong>14</strong> sec
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-  Coming 4 Nov 2020
-
-  <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-  47 Days
-  07 Hours
-  56 Min
-  14 Sec
-
-  Name
-  Email Address
-  Basic Pack Free
-  Basic Pack Free
-  Pro Pack $9.99
-  Ultimate Pack $19.99
-  Phone Number
-  Company
-  Get on the list
-  </pre>
+          <div class="contact__form">
+            <form action="post">
+              <p><input type="text" placeholder="Name" /></p>
+              <p><input type="text" placeholder="Email Address" /></p>
+              <p>
+                <select name="packs" id="pack">
+                  <option value="basic">Basic Pack Free</option>
+                  <option value="pro">Pro Pack $9.99</option>
+                  <option value="ultimate">Ultimate Pack $19.99</option>
+                </select>
+              </p>
+              <p><input type="text" placeholder="Phone Number" /></p>
+              <p><input type="text" placeholder="Company" /></p>
+              <button class="btn--solid">Get on the list</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
