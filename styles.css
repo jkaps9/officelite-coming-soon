@@ -399,6 +399,16 @@ section.about {
 
   .countdown {
     padding-bottom: 0;
+    width: 100%;
+  }
+
+  .countdown__content {
+    width: 100%;
+
+    & > .column {
+      width: 100%;
+      max-width: 28rem;
+    }
   }
 
   .countdown__title {
@@ -406,6 +416,7 @@ section.about {
   }
 
   .countdown__item {
+    flex-grow: 1;
     background: var(--blue-100);
     color: rgba(51, 57, 80, 0.5);
     strong {
