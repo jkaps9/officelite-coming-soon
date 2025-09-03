@@ -368,3 +368,17 @@ header {
     margin-bottom: 0;
   }
 }
+
+/* ABOUT */
+
+section.about .countdown__title {
+  color: var(--neutral-800);
+}
+
+section.about .countdown__item {
+  background: var(--blue-100);
+  color: rgba(51, 57, 80, 0.5);
+  strong {
+    color: var(--blue-500);
+  }
+}
