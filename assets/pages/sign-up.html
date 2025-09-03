@@ -72,19 +72,29 @@
           </div>
 
           <div class="contact__form">
-            <form action="post" class="card column">
-              <p><input type="text" placeholder="Name" /></p>
-              <p><input type="text" placeholder="Email Address" /></p>
-              <p>
+            <form action="post" class="sign-up-form card column">
+              <p class="sign-up-form__row">
+                <input type="text" placeholder="Name" />
+              </p>
+              <p class="sign-up-form__row">
+                <input type="text" placeholder="Email Address" />
+              </p>
+              <p class="sign-up-form__row">
                 <select name="packs" id="pack">
                   <option value="basic">Basic Pack Free</option>
                   <option value="pro">Pro Pack $9.99</option>
                   <option value="ultimate">Ultimate Pack $19.99</option>
                 </select>
               </p>
-              <p><input type="text" placeholder="Phone Number" /></p>
-              <p><input type="text" placeholder="Company" /></p>
-              <button class="btn--solid">Get on the list</button>
+              <p class="sign-up-form__row">
+                <input type="text" placeholder="Phone Number" />
+              </p>
+              <p class="sign-up-form__row">
+                <input type="text" placeholder="Company" />
+              </p>
+              <div class="sign-up-form__row">
+                <button class="btn--solid">Get on the list</button>
+              </div>
             </form>
           </div>
         </div>
