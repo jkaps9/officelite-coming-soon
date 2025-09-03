@@ -370,15 +370,32 @@ header {
 }
 
 /* ABOUT */
+section.about {
+  text-align: center;
 
-section.about .countdown__title {
-  color: var(--neutral-800);
-}
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
 
-section.about .countdown__item {
-  background: var(--blue-100);
-  color: rgba(51, 57, 80, 0.5);
-  strong {
-    color: var(--blue-500);
+  .about__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .countdown {
+    padding-bottom: 0;
+  }
+
+  .countdown__title {
+    color: var(--neutral-800);
+  }
+
+  .countdown__item {
+    background: var(--blue-100);
+    color: rgba(51, 57, 80, 0.5);
+    strong {
+      color: var(--blue-500);
+    }
   }
 }
