@@ -390,7 +390,7 @@ body {
   background-size: 175%;
 }
 
-section.about {
+section.sign-up {
   text-align: center;
   position: relative;
   padding-bottom: clamp(5rem, 3.0916rem + 8.1425vw, 7rem);
@@ -411,11 +411,11 @@ section.about {
     max-width: 33.75rem;
   }
 
-  .about__title {
+  .sign-up__title {
     margin-bottom: 1.5rem;
   }
 
-  .about__text {
+  .sign-up__text {
     font-size: 1.125rem;
     line-height: 150%;
     max-width: 52ch;
@@ -516,7 +516,7 @@ section.about {
     height: 100%;
   }
 
-  section.about {
+  section.sign-up {
     text-align: start;
 
     .content {
