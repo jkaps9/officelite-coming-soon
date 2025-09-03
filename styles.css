@@ -81,20 +81,42 @@ strong {
   line-height: 160%;
   padding: 0.75em 2.5em;
   border-radius: 12rem;
+
+  &:hover {
+    background: var(--blue-300);
+  }
 }
 
 .btn--solid-shadow {
   box-shadow: 0 25px 25px -10px rgba(63, 91, 194, 0.25);
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 3px var(--colors-neutral-0, #fff),
+      0 0 0 5px var(--colors-blue-500, #5175ff);
+  }
 }
 
 .btn--solid-light {
   background: var(--blue-100);
   color: var(--blue-500);
+
+  &:hover {
+    background: var(--blue-500);
+    color: var(--neutral-0);
+  }
 }
 
 .btn--solid-inverted {
   color: var(--blue-500);
   background: var(--neutral-0);
+
+  &:hover {
+    background: var(--blue-100);
+  }
 }
 
 /* HEADER */
