@@ -75,10 +75,17 @@
           <div class="contact__form">
             <form action="post" class="sign-up-form card column">
               <p class="sign-up-form__row">
-                <input type="text" placeholder="Name" />
+                <input type="text" name="name" placeholder="Name" required />
               </p>
               <p class="sign-up-form__row">
-                <input type="text" placeholder="Email Address" />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email Address"
+                  pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                  title="Email must match the pattern example@email.com"
+                  required
+                />
               </p>
               <p class="sign-up-form__row">
                 <select name="packs" id="pack">
@@ -88,10 +95,10 @@
                 </select>
               </p>
               <p class="sign-up-form__row">
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" name="phone" placeholder="Phone Number" />
               </p>
               <p class="sign-up-form__row">
-                <input type="text" placeholder="Company" />
+                <input type="text" name="company" placeholder="Company" />
               </p>
               <div class="sign-up-form__row">
                 <button class="btn--solid">Get on the list</button>
