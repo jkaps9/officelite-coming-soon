@@ -373,6 +373,13 @@ header {
 section.about {
   text-align: center;
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
@@ -405,9 +412,14 @@ section.about {
       color: var(--blue-500);
     }
   }
+
+  .contact__form {
+    width: 100%;
+  }
 }
 
 .sign-up-form {
+  margin: 0 auto;
   max-width: 27.8125rem;
   gap: 1.5rem;
 
@@ -435,7 +447,7 @@ section.about {
     border: none;
     border-bottom: 1px solid rgba(116, 123, 149, 0.5);
     background-color: transparent;
-    padding-bottom: 1rem;
+    padding: 0 1rem 1rem;
     font: inherit;
     line-height: 175%;
   }
