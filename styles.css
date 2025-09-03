@@ -406,3 +406,19 @@ section.about {
     }
   }
 }
+
+@media only screen and (min-width: 64rem) {
+  section.about {
+    text-align: start;
+
+    .content {
+      align-items: flex-start;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
