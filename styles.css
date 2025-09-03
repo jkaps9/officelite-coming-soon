@@ -369,7 +369,7 @@ header {
   }
 }
 
-/* ABOUT */
+/* SIGN UP */
 section.about {
   text-align: center;
 
@@ -404,6 +404,45 @@ section.about {
     strong {
       color: var(--blue-500);
     }
+  }
+}
+
+.sign-up-form {
+  gap: 1.5rem;
+
+  .sign-up-form__row {
+    width: 100%;
+  }
+
+  input,
+  select,
+  button {
+    width: 100%;
+  }
+
+  button {
+    font: inherit;
+    border: none;
+    line-height: 160%;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+
+  input,
+  select {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(116, 123, 149, 0.5);
+    background-color: transparent;
+    padding-bottom: 1rem;
+    font: inherit;
+    line-height: 175%;
+  }
+
+  input::placeholder {
+    font: inherit;
+    color: var(--neutral-500);
+    line-height: 175% !important;
   }
 }
 
