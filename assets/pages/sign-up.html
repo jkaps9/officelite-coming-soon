@@ -73,7 +73,11 @@
           </div>
 
           <div class="contact__form">
-            <form action="post" class="sign-up-form card column">
+            <form
+              action="post"
+              class="sign-up-form card column"
+              id="sign-up-form"
+            >
               <p class="sign-up-form__row">
                 <input type="text" name="name" placeholder="Name" required />
               </p>
@@ -101,12 +105,25 @@
                 <input type="text" name="company" placeholder="Company" />
               </p>
               <div class="sign-up-form__row">
-                <button class="btn--solid">Get on the list</button>
+                <button class="btn--solid" type="submit">
+                  Get on the list
+                </button>
               </div>
             </form>
           </div>
         </div>
       </section>
     </main>
+
+    <script>
+      const form = document.getElementById("sign-up-form");
+
+      // Form submission handler
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        alert("Successful submission");
+        form.reset();
+      });
+    </script>
   </body>
 </html>
