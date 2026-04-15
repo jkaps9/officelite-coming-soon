@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/jkaps9/officelite-coming-soon](https://github.com/jkaps9/officelite-coming-soon)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jkaps9.github.io/officelite-coming-soon/](https://jkaps9.github.io/officelite-coming-soon/)
 
 ## My process
 
